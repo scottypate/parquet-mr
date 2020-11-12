@@ -63,7 +63,7 @@ public class AvroWriteSupport<T> extends WriteSupport<T> {
 
   public static final String WRITE_OLD_LIST_STRUCTURE =
       "parquet.avro.write-old-list-structure";
-  static final boolean WRITE_OLD_LIST_STRUCTURE_DEFAULT = true;
+  static final boolean WRITE_OLD_LIST_STRUCTURE_DEFAULT = false;
   public static final String WRITE_PARQUET_UUID = "parquet.avro.write-parquet-uuid";
   static final boolean WRITE_PARQUET_UUID_DEFAULT = false;
 
